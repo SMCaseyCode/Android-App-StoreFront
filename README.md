@@ -25,7 +25,7 @@ This is a project meant to show knowledge in Java and Android Studio. The applic
 - SQLite
 - Gradle
 
-# PROJECT DEMONSTRATION
+# APPLICATION DEMONSTRATION
 
 https://user-images.githubusercontent.com/104325289/209617185-7e93d7bf-b5e9-40fe-b472-e2959b0fdc25.mp4
 
