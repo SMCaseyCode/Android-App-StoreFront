@@ -25,3 +25,5 @@ This is a project meant to show knowledge in Java and Android Studio. The applic
 - SQLite
 
 # PROJECT DEMONSTRATION
+
+[<img src="https://i.ytimg.com/vi/WrvLjH1sqcM/maxresdefault.jpg" width="50%">](https://youtu.be/WrvLjH1sqcM "Application Demo")
