@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewAccountActivity">
+
+    <TextView
+        android:id="@+id/CreateActivityDisplay"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="24pt"
+        android:text="@string/create_accountSTR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <EditText
+        android:id="@+id/CreateUsernameEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:autofillHints="username"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/usernameHint"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/LoginUsernameEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateActivityDisplay" />
+
+
+    <EditText
+        android:id="@+id/CreatePasswordEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/passwordHint"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateUsernameEditText"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/CreateSubmitButton"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/createBTN"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreatePasswordEditText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

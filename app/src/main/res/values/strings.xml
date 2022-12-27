@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Scamegg</string>
+    <string name="loginScameggMsg">Scamegg Login</string>
+    <string name="noLogError">No Users are Set</string>
+    <string name="scameggTitle">Scamegg</string>
+    <string name="loginBtnTxt">Login</string>
+    <string name="createAccountBtn">Create Account</string>
+    <string name="usernameHint">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="logoutBTN">Logout</string>
+    <string name="adminBTN">Admin</string>
+    <string name="yes">Confirm</string>
+    <string name="no">Cancel</string>
+    <string name="logout">Would you like to logout?</string>
+    <string name="create_accountSTR">Create Account</string>
+    <string name="createBTN">Create</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
